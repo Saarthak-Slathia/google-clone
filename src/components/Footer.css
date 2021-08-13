@@ -1,0 +1,44 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  background: #bbb;
+  width: 100%;
+}
+
+footer .top,
+footer .bottom {
+  display: flex;
+  background: #f2f2f2;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  color: #777;
+}
+
+footer .bottom {
+  margin: 0.05rem 0;
+}
+
+footer .top h3,
+footer .bottom ul li {
+  list-style: none;
+  font-weight: 400 !important;
+  font-size: 14px;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+footer .bottom ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .bottom ul li:hover {
+  text-decoration: underline;
+}
